@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-.hero {
+.hero-background {
   background-image: ./images/background.jpg; 
   background-size: cover;
   background-position: center;
@@ -13,7 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #fff;
+  color: #6C22A6;
 }
 
 .hero-animation {
