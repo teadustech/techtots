@@ -1,3 +1,5 @@
+/* style.css */
+
 /* Reset CSS */
 * {
     margin: 0;
@@ -20,7 +22,7 @@ body {
 .hero {
     position: relative;
     height: 100vh;
-    color: #fff;
+    color: #000; /* Changed text color to black */
     text-align: center;
     background: url('./images/background.jpg') no-repeat center center/cover;
     display: flex;
@@ -34,6 +36,7 @@ body {
 .hero h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: #000; /* Changed text color to black */
 }
 
 .hero p {
@@ -67,6 +70,12 @@ body {
 
 .card p {
     font-size: 16px;
+}
+
+/* Align cards in grid format */
+.card {
+    flex-basis: calc(25% - 40px); /* Adjust width of cards */
+    margin: 20px;
 }
 
 /* Footer styles */
